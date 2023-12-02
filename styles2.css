@@ -1,0 +1,29 @@
+body {
+    background-color: #87CEEB; /* couleur de fond simulant l'eau */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.drop {
+    width: 50px;
+    height: 80px;
+    background-color: #4682B4; /* couleur de la goutte */
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    animation: fall 1s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

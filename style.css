@@ -1,4 +1,14 @@
 body {
     background-color: black;
-    color: white; /* Pour changer la couleur du texte en blanc, pour une meilleure lisibilité sur fond noir */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
 }
